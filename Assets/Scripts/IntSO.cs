@@ -16,4 +16,8 @@ public class IntSO : ScriptableObject
     {
         this.value = value;
     }
+    public void SetValue(IntSO integer)
+    {
+        value = integer.value;
+    }
 }

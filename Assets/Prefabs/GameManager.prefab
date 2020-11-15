@@ -140,10 +140,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2087603992588096698}
         m_MethodName: IncrementScore
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 11400000, guid: 853988a95ced00e49ba4b980f04ac390,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntSO, Assembly-CSharp
           m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
@@ -163,7 +164,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maximumLives: {fileID: 11400000, guid: d80fc8822474c20488bab128b1520e50, type: 2}
   HighestScore: {fileID: 11400000, guid: 99c125062eb52e84a950bb825eca3ae6, type: 2}
-  HitScoreValue: {fileID: 11400000, guid: 853988a95ced00e49ba4b980f04ac390, type: 2}
   stopGameEvent: {fileID: 11400000, guid: 5cf4ef663e7a837479b6013ec4f069ff, type: 2}
   startGameEvent: {fileID: 11400000, guid: 678ae0d71203e25429d05bb8d9a35bc6, type: 2}
   UIUpdateEvent: {fileID: 11400000, guid: 65e4d288c38eec74cbe0380e0b37890f, type: 2}

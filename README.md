@@ -8,7 +8,7 @@ Note: This implemtation has platform independent compiled code . To use keyboard
 
 ## Player
 
-score: inceases when player hit an asteroid. score value for asteroid hit can be set from Assets\ScriptableObjects\Variables\HitScore
+score: inceases when player hit an asteroid. score value for asteroid hit can be set from (_BigAsteroidScore, _MediumAsteroidScore, _SmallAsteroidScore) in Assets\ScriptableObjects\Variables
 
 lives: Number of tries player can play the game. lives reduces when spaceship is hit by an asteroid. Max number of lives can be set from Assets\ScriptableObjects\Variables\MaximumLives
 

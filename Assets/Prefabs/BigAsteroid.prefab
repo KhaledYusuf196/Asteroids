@@ -12,6 +12,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4998068811858154356, guid: 606cecffaefa21941bde5a7c270bec20,
         type: 3}
+    - target: {fileID: 177925628155557397, guid: 606cecffaefa21941bde5a7c270bec20,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 177925628155557397, guid: 606cecffaefa21941bde5a7c270bec20,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: c1c59a8c464f4ef4dacccbd7b5e33c27,
+        type: 2}
     - target: {fileID: 2659214075711316912, guid: 606cecffaefa21941bde5a7c270bec20,
         type: 3}
       propertyPath: Asteroids.Array.data[0]
@@ -24,11 +35,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300006, guid: 1bd6c74c058d5f143a391104c445e845,
         type: 3}
-    - target: {fileID: 4658791820961903221, guid: 606cecffaefa21941bde5a7c270bec20,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4998068811858154356, guid: 606cecffaefa21941bde5a7c270bec20,
         type: 3}
       propertyPath: m_Name

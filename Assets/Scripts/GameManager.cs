@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] IntSO maximumLives;
     public IntSO HighestScore;
-    [SerializeField] IntSO HitScoreValue;
     [SerializeField] EventSystem_SO stopGameEvent;
     [SerializeField] EventSystem_SO startGameEvent;
     [SerializeField] EventSystem_SO UIUpdateEvent;
@@ -27,7 +26,7 @@ public class GameManager : MonoBehaviour
         score = 0;
     }
 
-    public void IncrementScore()
+    public void IncrementScore(IntSO HitScoreValue)
     {
         score += HitScoreValue.value;
         HighestScore.value = Mathf.Max(score, HighestScore.value);
